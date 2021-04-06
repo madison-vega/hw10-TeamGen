@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
+// const generatehtml = require('generatehtml')
 
 const Employee = require('./develop/lib/employee');
 const Engineer = require('./develop/lib/engineer');
@@ -50,7 +51,7 @@ const engineerQ = [
     {
         name: 'name',
         type: 'input',
-        message: 'What is the managers name?'
+        message: 'What is the name?'
 
     },
     {
@@ -79,7 +80,7 @@ const internQ = [
     {
         name: 'name',
         type: 'input',
-        message: 'What is the managers name?'
+        message: 'What is the name?'
 
     },
     {
@@ -141,8 +142,9 @@ const addTeamMem = () => {
                 addIntern();
                 break;
             
-            case 'Done':
-                renderHtml();
+            // case 'Done':
+            //     renderHtml();
+            //     break;
                 
         }
     })
@@ -178,9 +180,8 @@ const addIntern = () => {
     });
 };
 
-const generateHtml = () => {
 
-}
+
 
 
 

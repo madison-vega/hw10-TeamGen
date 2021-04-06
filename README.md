@@ -22,6 +22,7 @@ In order to install this application you will need to have Node.js installed and
 ## Usage 
 
 To utilize the application, once you have the repository cloned, you will run the index.js file from the command line using Node, this will prompt the Inquirer questions where the manager will be able to input their info, then choose their team members, either intern, engineer, or they can finish.  Depending on the user selection, the console will then prompt more questions for either the intern or engineer, or if done is selected it will generate the html with the data that was input.
+[Video Walkthrough](https://drive.google.com/file/d/1P_1eDZJfarKdcf8Sj1QpWVfNhJHQyRHh/view)
 
 
 ## License
