@@ -10,6 +10,7 @@ const Intern = require('./develop/lib/intern');
 
 
 
+
 // need for fs function fs doc
 // const outputDirectory;
 // const outputPath;
@@ -140,8 +141,8 @@ const addTeamMem = () => {
                 addIntern();
                 break;
             
-            // case 'Done':
-            //     // renderHTML();
+            case 'Done':
+                renderHtml();
                 
         }
     })
@@ -176,6 +177,10 @@ const addIntern = () => {
         addTeamMem();
     });
 };
+
+const generateHtml = () => {
+
+}
 
 
 

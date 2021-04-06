@@ -1,7 +1,7 @@
 # hw10-TeamGen
 
 ## Description
-
+This app is created utilizing modularization and classes within Node.js to allow the user to generate a page that shows their work team.  This will help streamline creating a roster of your team members with their information.
 
 
 ## Table of Contents 
@@ -16,11 +16,12 @@
 
 ## Installation
 
+In order to install this application you will need to have Node.js installed and you will need to clone the repository to your local machine.
+
 
 ## Usage 
 
-
-## Credits
+To utilize the application, once you have the repository cloned, you will run the index.js file from the command line using Node, this will prompt the Inquirer questions where the manager will be able to input their info, then choose their team members, either intern, engineer, or they can finish.  Depending on the user selection, the console will then prompt more questions for either the intern or engineer, or if done is selected it will generate the html with the data that was input.
 
 
 ## License
@@ -50,6 +51,7 @@ SOFTWARE.
 
 ## Tests
 
+I have not run any tests yet.
 
 ## Questions
 
